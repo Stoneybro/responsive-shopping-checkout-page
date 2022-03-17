@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgba(235, 233, 233, 0.685);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    list-style-type: none;
+    position: absolute;
+    top: -16.5px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 700;
+    
+
+}
+.svg{
+    width: 20px;
+}
+.svg:hover{
+    filter: invert(15%) sepia(100%) saturate(6174%) hue-rotate(360deg) brightness(102%) contrast(116%);
+}
+nav li{
+    padding: 0 30px;
+}
+ li a:hover{
+    color: red;
+}
+nav li:nth-child(2){
+    margin-left: auto;
+}nav li:nth-child(1){
+    font-weight: bold;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+#h:hover{
+    color: black;
+}
+.menu{
+    display: none;
+}
+.redbox{
+    background-color: rgb(255, 38, 0);
+    height: 16px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.T{
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding:6px 9px 6px 9px;
+    text-align: center;
+    font-size: 16px;
+}
+nav span{
+    color: red;
+    font-weight: bold;
+}
+.checkout{
+   padding-top:  20px;
+ position: relative;
+ right: 140vh;
+ padding-bottom: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 40px;
+    margin-top: 50px ;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    
+}
+h3{
+    margin:15px 9px;
+    padding-bottom: 8px;
+    border-bottom: rgba(153, 151, 151, 0.418) 1px solid;
+}
+.firstsegment{
+   
+    background-color: white;
+    height: 120vh;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.secondsegment{
+    
+    border-radius: 15px;
+    padding: 0;
+    background-color: white;
+    height: 75vh;
+}
+
+.letters{
+   font-size: 12px;
+
+   
+
+}
+.letters>div{
+    font-weight: 700;
+    font-size: 15.5px;
+   width: 130px;
+}
+p{
+    font-size: 12px;
+}
+.summaryboxes{
+    display: flex;
+    flex-direction: row;
+    padding-left: 35px;
+    padding-bottom: -20px;
+
+}
+
+h4{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+.numbers{
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.numbers h2{
+    font-size: 18.5px;
+    margin-top: 0;
+}
+.numbers h4{
+    margin-bottom: 4px;
+    font-size: 13px;
+    text-align: right;
+}
+.numbers div{
+    margin-top:-17px ;
+    margin-bottom: 6px;
+}
+.numbers span{
+    margin: 0 3px;
+    background-color: rgba(179, 173, 173, 0.329);
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.no{
+    border-top: rgba(153, 151, 151, 0.418) solid 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 15px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.no1{
+    color: rgb(65, 64, 64);
+    font-weight: 500;
+    
+}
+.no1 div{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.no2 div{
+    margin-top: 20px;
+}
+.no2{
+    text-align: right;
+    font-weight: 600;
+}
+.boximages{
+    margin-right: -20px;
+    position: relative;
+    left: -30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.stepletters{
+    font-style: italic;
+    color: gray;
+   
+}
+.normalletters{
+    font-weight: 700;
+    padding: 15px 0 20px 0;
+}
+.textbox{
+    padding: 15px 0 20px 0;
+}
+.textbox input{
+    width: 280px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(153, 151, 151);
+}
+.textbox>input{
+    margin-right: 20px;
+}
+.checkbox{
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 12px;
+}
+button{
+    margin-bottom: 20px;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+.longbox input{
+    width: 90%;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(153, 151, 151);
+}
+select{
+    padding: 7px 20px;
+    margin: 0 20px;
+}
+.input input{
+    padding: 7px 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(153, 151, 151);
+    margin-bottom: 15px;
+}
+.radio span{
+    margin: 0 20px 0px 0;
+}
+.lastinput input{
+    padding: 7px 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(153, 151, 151);
+    margin-bottom: 15px;
+    margin-right: 10px;
+    
+}
+.lastcheckout{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: red;
+    padding: 10px 40px;
+    margin: 0 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+@media (max-width:500px){
+    .checkout{
+        position: relative;
+        right:auto;
+        top: 60px;
+    }
+    body{
+        height: 150vh;
+    }
+    nav ul{
+     
+        padding-left:5px;
+        
+    }
+    nav li{   
+       
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    nav img{
+        width: 10px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: minmax(100px,auto);
+        margin: -10vh 0;
+        height: 200vh;
+        
+    }
+    .firstsegment{
+        height: fit-content;
+    }
+    .secondsegment{
+        border: black 1px solid;
+        margin-bottom: -500px;
+    }
+    
+}
+
+@media (orientation:portrait),(max-width:500px){
+    nav ul{
+        background-color: rgb(235, 228, 228);
+        position: fixed;
+        z-index: 1;
+        box-shadow: 0 1px rgba(128, 128, 128, 0.342);
+        
+    }
+    
+    nav li{
+     
+        display:none ;
+
+    }
+    
+
+    .svg{
+        width: 12px;
+    }
+    nav li:nth-child(1){
+        display: block;
+    }
+    .checkout{
+        font-size:15px;
+        font-weight: 600;
+        margin-left: 30px;
+        margin-top: 20px;
+
+    }
+    .stepletters{
+        margin-top: 30px;
+    }
+   .normalletters{
+       padding:10px 0;
+   }
+   .textbox{
+       padding: 0;
+   }
+   .textbox input{
+       margin: 5px ;
+   }
+   .step2 input {
+       margin: 5px  ;
+   }
+   .step2 select{
+       margin: 5px ;
+       
+   }
+   .radio{
+       display: flex;
+       flex-direction: column;
+   }
+   .secondsegment{
+       margin: 0 25px;
+       height: fit-content;
+   }
+   .lastcheckout{
+       margin-bottom: 10px;
+       margin-left: 25%;
+   }
+   .menu{
+       display: block;
+       margin-left: auto;
+       padding-right: 30px;
+       padding-top: 10px;
+   }
+
+}
